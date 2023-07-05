@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);;;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+.square{
+    width: 29%;
+    padding-top: 30%;
+    margin: 1.66%;
+    border: solid;
+    background-color: purple;
+    float: left;
+    border-radius: 25px;
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+}
+
+#container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 1.66%;
+
+}
+
+h1{
+   color:white; 
+   text-align: center;
+}
+
+header{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:white;
+    background: linear-gradient(to bottom, #0887b1 0%, #c92074 100%);;
+    margin:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+h1{
+    margin-bottom: 5px;
+}
+
+#reset{
+    margin-left: 32%;
+    margin-top: 5px;
+    height: 100%;
+}
+
+.selected{
+    background-color: white;
+    padding: 20px 0;
+    margin: 0;
+    height: 100%;
+}
+
+#goal{
+    text-transform: uppercase;
+}
+
+button{
+    border: none;
+    background: -moz-linear-gradient();
+    text-transform: uppercase;
+    height: 100%;
+    color:rgb(13, 13, 14);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    outline: none;
+}
+
+button:hover{
+    color:white;
+    background-color: steelblue;
+}
